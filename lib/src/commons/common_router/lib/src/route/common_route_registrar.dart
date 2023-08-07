@@ -1,7 +1,7 @@
 import 'dart:collection';
 
 import 'package:flutter/material.dart';
-import 'common_route.dart';
+import 'package:common_router/src/route/common_route.dart';
 
 abstract class CommonRouteBuilder<T extends RouterConfig<Object>> {
   final Map<String, RouteWidgetBuilder> _routeMap = HashMap();
